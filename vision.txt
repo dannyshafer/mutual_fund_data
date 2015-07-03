@@ -1,0 +1,21 @@
+
+Setting up database:
+
+it has four tables of scraped data: mutual funds, holdings, risks, returns
+
+User input > scraping from google finance > save to database:
+
+it takes a user input to search
+it throws an error if the input is not a mutual fund (i.e. if the last character is not 'x')
+it scrapes google finance for information about a mutual fund
+it stores the results (holdings, risk metrics, returns, morningstar ratings, et al.) in a container array
+it takes the results of the container array and stores them in a database which we'll query later
+
+Querying from database:
+
+it has a lot of queries that are my interpretation of the data
+
+Front end:
+
+don't worry about this yet
+
